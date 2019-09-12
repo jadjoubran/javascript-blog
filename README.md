@@ -4,11 +4,9 @@ Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Forestry CM
 
 Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify] [![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=dirtyf/hylia&provider=github&branch=forestry&engine=other&preview=https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60)
 
 <img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
-
-[![Import to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=dirtyf/hylia&provider=github&branch=forestry&engine=other&preview=https://camo.githubusercontent.com/8bae59778d46d15e98e701d5b6f4d0cb3a2cb880/68747470733a2f2f68616e6b6368697a6c6a61772e696d6769782e6e65742f68796c69612d6769746875622e6a70673f6175746f3d666f726d617426713d3630)
 
 ## Features
 
@@ -84,18 +82,11 @@ npm run sass:tokens
 
 ## Getting started with the CMS
 
-Before you can use the CMS, you need to do some config in Netlify. Luckily they provide a [very handy guide to get started](https://www.netlify.com/docs/identity/).
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=dirtyf/hylia&provider=github&branch=forestry&engine=other&preview=https://camo.githubusercontent.com/8bae59778d46d15e98e701d5b6f4d0cb3a2cb880/68747470733a2f2f68616e6b6368697a6c6a61772e696d6769782e6e65742f68796c69612d6769746875622e6a70673f6175746f3d666f726d617426713d3630)
 
-In short, though:
+Once the site is imported in Forestry, go to settings/previews to start the preview server.
 
-- Once you’ve set up the site on Netlify, go to “Settings” > “Identity” and enable Identity
-- Scroll down to the “Git Gateway” area, click “Enable Git Gateway” and follow the steps
-- Click the “Identity” tab at the top
-- Once you’ve enabled identity, click “Invite Users”
-- Check the invite link in your inbox and click the link in the email that’s sent to you
-- Set a password in the popup box
-- Go to `/admin` on your site and login
-- You’re in and ready to edit your content!
+You'll be able to create drafts and preview the final rendering before publishing.
 
 ## Design Tokens and Styleguide
 
@@ -109,7 +100,7 @@ Although Hylia has a pretty simple design, you can configure the core design tok
 
 ---
 
-To change the design tokens in the CMS, find the “Globals” in the sidebar then in the presented options, select “Theme Settings”.
+To change the design tokens in the CMS, click on “theme settings” in the sidebar.
 
 To change the design tokens directly, edit [`_src/data/tokens.json`](https://github.com/hankchizljaw/hylia/blob/master/src/_data/tokens.json).
 
