@@ -6,33 +6,32 @@ tags:
 - beginner
 
 ---
-
 **JavaScript** is a programming language used to make
 websites dynamic & interactive.
 
 For example, it allows you to:
-- Show a message when the user clicks on a button
-- Hide a message when the user clicks on the close button
-- Open a sidebar when the user swipes to the right from the edge of
-the screen
-- Play a video when you click on the **play** button
 
+* Show a message when the user clicks on a button
+* Hide a message when the user clicks on the close button
+* Open a sidebar when the user swipes to the right from the edge of
+  the screen
+* Play a video when you click on the **play** button
 
 **JavaScript** can also be used on the server side to
 write the backend or API of your website. In that context it's called
 **Node** or **NodeJs**.
 
-
 On the frontend side, JavaScript is often used in combination with
 **HTML** & **CSS**.
 
 ## Basics of JavaScript
+
 Let's start with the basics of JavaScript by looking at a simple
 example:
 
 ```javascript
 function sum(a, b) {
-return a + b;
+	return a + b;
 }
 ```
 
@@ -41,7 +40,9 @@ This code defines a function (which is a reusable piece of code) called
 `sum(1, 3)` which returns **4**. You can run it
 again with different values, such as `sum(2, 5)` and it will
 return the result of `2 + 5` which is **7**.
+
 ### A note on the return keyword
+
 The keyword **return** instructs the function that this is
 the result of that function. Think of it as an operation and then when
 it completes, it will give you the result of the sum.
@@ -73,9 +74,10 @@ the string. Here's an example of getting the length of
 // returns 5
 ```
 
-
 ### Basic String methods
+
 Here are some common methods that you can call on strings:
+
 #### .includes(searchString)
 
 This method returns true when the searchString is included inside the
@@ -95,7 +97,6 @@ case:
 "hello".toUpperCase(); // "HELLO";
 ```
 
-
 #### .toLowerCase()
 
 This will return a new string that has all of its characters in lower
@@ -105,8 +106,8 @@ case:
 "NICe".toLowerCase(); // "nice";
 ```
 
-
 ## Numbers
+
 1, 2, 0, -5, 3.5, 2000, 2019, -23.51.
 All of these are examples of Numbers in JavaScript. It doesn't matter if
 it's negative or positive, if it has a decimal (values after the
@@ -122,7 +123,6 @@ with a value 42:
 answer.toString(); //"42"
 ```
 
-
 ### Converting from string to number
 
 In some scenarios, you'd like to convert from a string to a number.
@@ -133,20 +133,16 @@ For that, you'd have to use the
 Number.parseInt("42", 10); //42
 ```
 
-
 Note that the **Number** in
 **Number.parseInt("42")** is an Object in JavaScript that
 contains methods related to numbers, and
 **.parseInt()** is one of them. It's a method that you
 call on **Number** to convert a string into a number.
 
-
-
 The 2nd argument is called radix. A radix of 10 means that we're using
 the decimal system. In short, humans use the decimal system (because
 we have 10 fingers, from 0 to 9), and computers use the binary system
 (on and off, 0s and 1s).
-
 
 Unfortunately parseInt **does not default** to a radix of
 10, thus it is recommended that you always specify it. If you omit the
