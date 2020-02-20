@@ -15,3 +15,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- src/posts/how-to-code-in-javascript.md
