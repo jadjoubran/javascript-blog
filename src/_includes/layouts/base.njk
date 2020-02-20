@@ -20,5 +20,26 @@
   {% block foot %}
   {% endblock %}
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
+  <script type="module" async defer>
+  window.addEventListener("load", () => {
+     window.ga =
+        window.ga ||
+        function() {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+
+      ga("create", "UA-131007047-5", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("send", "pageview");
+    setTimeout(() => {
+      const script = document.createElement("script");
+      script.src = "https://www.google-analytics.com/analytics.js";
+      script.defer = true;
+      script.async = true;
+      document.body.appendChild(script);
+    }, 400);
+  });
+  </script>  
 </body>
 </html>
