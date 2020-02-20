@@ -1,18 +1,13 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
-      "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "text": "Twitter",
+      "url": "https://twitter.com/JoubranJad",
       "external": true
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/hankchizljaw",
+      "text": "Learn JavaScript",
+      "url": "https://learnjavascript.online/?utm_source=blog",
       "external": true
     }
   ]
