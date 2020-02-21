@@ -17,3 +17,4 @@ fields:
   label: tags
 pages:
 - src/posts/how-to-code-in-javascript.md
+- src/posts/javascript-foreach-the-complete-guide.md
