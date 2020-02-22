@@ -36,7 +36,7 @@
     "start": "concurrently \"npm run sass:process -- --watch\" \"npm run cms:bundle -- --watch\" \"chokidar \\\"src/_includes/**\\\" -c \\\"npm run cms:precompile\\\"\" \"npm run serve\"",
     "serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy",
-    "deploy": "firebase deploy"
+    "deploy": "npm run production && firebase deploy"
   },
   "repository": {
     "type": "git",
