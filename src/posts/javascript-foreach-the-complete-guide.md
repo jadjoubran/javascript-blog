@@ -6,7 +6,9 @@ tags:
 - foreach
 
 ---
-**forEach** is a is a method that you can call on Arrays.
+The **forEach** method is a method that you can call on Arrays.
+
+![](/images/Javascript foreach.jpg)
 
 It helps you iterate (loop) over array items one by one. Here's an example:
 
