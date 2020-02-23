@@ -8,7 +8,7 @@ tags:
 ---
 The **forEach** method is a method that you can call on Arrays.
 
-![JavaScript forEach - a complete guide](/images/Javascript foreach.jpg "JavaScript forEach")
+![JavaScript forEach - a complete guide](/images/javascript-foreach.jpg "JavaScript forEach")
 
 It helps you iterate (loop) over array items one by one. Here's an example:
 
