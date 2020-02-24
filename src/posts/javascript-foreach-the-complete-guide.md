@@ -51,7 +51,7 @@ You can also practise reading this in English as following:
 
 > We have an **apps** array and we iterate over it one by one. Now we can start thinking about a single item of that array, which is one **app**
 
-## NoteList
+## NodeList
 
 When working with the DOM, it's common to use the **document.querySelectorAll(css_selector)** method. This method returns a **NodeList** which is an element that looks like an array (but is not an array).
 
