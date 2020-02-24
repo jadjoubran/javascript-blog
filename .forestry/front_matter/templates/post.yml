@@ -15,6 +15,29 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: metaDesc
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: metaDesc
+  description: Meta Description
+- name: socialImage
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: socialImage
+  description: Social image (twitter/facebook)
 pages:
 - src/posts/how-to-code-in-javascript.md
 - src/posts/javascript-foreach-the-complete-guide.md
