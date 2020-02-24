@@ -4,6 +4,9 @@ title: How to code in JavaScript
 tags:
 - introduction
 - beginner
+metaDesc: How to code in JavaScript - A tutorial that covers the basics of JavaScript
+  so you can get started. Ideal for developers with some programming experience.
+socialImage: ''
 
 ---
 **JavaScript** is a programming language used to make
