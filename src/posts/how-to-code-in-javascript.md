@@ -6,11 +6,13 @@ tags:
 - beginner
 metaDesc: How to code in JavaScript - A tutorial that covers the basics of JavaScript
   so you can get started. Ideal for developers with some programming experience.
-socialImage: ''
+socialImage: "/images/how-to-code-in-javascript.jpg"
 
 ---
 **JavaScript** is a programming language used to make
 websites dynamic & interactive.
+
+![](/images/how-to-code-in-javascript.jpg)
 
 For example, it allows you to:
 
