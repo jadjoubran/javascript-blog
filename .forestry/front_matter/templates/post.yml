@@ -26,16 +26,9 @@ fields:
   label: metaDesc
   description: Meta Description
 - name: socialImage
-  type: select
-  default: []
+  type: file
   config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
+    maxSize: 250
   label: socialImage
   description: Social image (twitter/facebook)
 pages:
