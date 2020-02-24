@@ -4,6 +4,7 @@ title: JavaScript forEach - the complete guide
 tags:
 - guide
 - foreach
+metaDesc: "JavaScript forEach"
 
 ---
 The **forEach** method is a method that you can call on Arrays.
