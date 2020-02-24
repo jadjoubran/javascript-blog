@@ -4,7 +4,9 @@ title: JavaScript forEach - the complete guide
 tags:
 - guide
 - foreach
-metaDesc: "JavaScript forEach"
+metaDesc: JavaScript forEach. The complete guide on how to use forEach to iterate
+  over arrays in JavaScript.
+socialImage: "/images/javascript-foreach.jpg"
 
 ---
 The **forEach** method is a method that you can call on Arrays.
