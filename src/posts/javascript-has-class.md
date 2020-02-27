@@ -1,7 +1,9 @@
 ---
-date: 
+date: 2020-02-27
 title: JavaScript has class
-tags: []
+tags:
+- guide
+- javascript
 metaDesc: ''
 socialImage: ''
 
