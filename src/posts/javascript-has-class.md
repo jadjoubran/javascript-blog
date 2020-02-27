@@ -1,5 +1,5 @@
 ---
-date: 2020-02-27
+date: 2020-03-01
 title: JavaScript has class
 tags:
 - guide
