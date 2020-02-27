@@ -2,6 +2,7 @@
 date: 2020-02-21
 title: JavaScript forEach - the complete guide
 tags:
+- javascript
 - guide
 - foreach
 metaDesc: JavaScript forEach. The complete guide on how to use forEach to iterate
