@@ -52,7 +52,7 @@ Here are some of the most common use cases you can do with classList:
 element.classList.add("class1", "class2");
 ```
 
-Checkout:
+Check out:
 
 * [How to add class to element in JavaScript](https://codetogo.io/how-to-add-class-to-element-in-javascript/ "How to add class to element in JavaScript")
 * [How to add multiple classes to element in JavaScript](https://codetogo.io/how-to-add-multiple-classes-to-element-in-javascript/ "How to add multiple classes to element in JavaScript")
@@ -63,7 +63,7 @@ Checkout:
 element.classList.remove("class1, "class2");
 ```
 
-Checkout:
+Check out:
 
 * [How to remove class from element in JavaScript](https://codetogo.io/how-to-remove-class-from-element-in-javascript/ "How to remove class from element in JavaScript")
 * [How to remove multiple classes from element in JavaScript](https://codetogo.io/how-to-remove-multiple-classes-from-element-in-javascript/ "How to remove multiple classes from element in JavaScript")
@@ -74,7 +74,7 @@ Checkout:
 element.classList.toggle("class1", "class2");
 ```
 
-Checkout [How to toggle class of element in JavaScript](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/ "How to toggle class of element")
+Check out [How to toggle class of element in JavaScript](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/ "How to toggle class of element")
 
 ### Replace class
 
@@ -82,4 +82,4 @@ Checkout [How to toggle class of element in JavaScript](https://codetogo.io/how-
 element.classList.replace("old-one", "new-one");
 ```
 
-Checkout [How to replace a class of element in JavaScript](https://codetogo.io/how-to-replace-a-class-of-element-in-javascript/ "How to replace a class of element in JavaScript")
+Check out [How to replace a class of element in JavaScript](https://codetogo.io/how-to-replace-a-class-of-element-in-javascript/ "How to replace a class of element in JavaScript")
