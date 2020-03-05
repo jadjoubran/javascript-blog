@@ -91,3 +91,9 @@ users.forEach(user => {
 ```
 
 Because every **user** (or item) is an object, you can access the keys **id** and **name** by calling **user.id** and **user.name**.
+
+## Using the index
+
+You can also access the **index** of every item in the forEach. Checkout our other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
+
+The index can be useful in several scenarios, and also allows you to use the early return or [early exit pattern](/posts/javascript-foreach-index/#heading-early-exit) in the forEach.
