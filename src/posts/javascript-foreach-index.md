@@ -1,5 +1,5 @@
 ---
-date: 2020-03-01
+date: 2020-03-04
 title: JavaScript forEach index
 tags:
 - foreach
