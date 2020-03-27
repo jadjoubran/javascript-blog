@@ -40,6 +40,8 @@ The output (in the console) of both of these snippets of code is the following:
     "Messaging"
     "Clock"
 
+Notice how the callback function passed to the **forEach** is being called **for every single element** of the array**.**
+
 ## Best practices
 
 A couple of best practices for using the **JavaScript forEach** method:
@@ -91,6 +93,8 @@ users.forEach(user => {
 ```
 
 Because every **user** (or item) is an object, you can access the keys **id** and **name** by calling **user.id** and **user.name**.
+
+There are also other array methods that work similarly, like the **.map** but that's for another article.
 
 ## Using the index
 
