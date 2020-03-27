@@ -98,6 +98,6 @@ There are also other array methods that work similarly, like the **.map** but th
 
 ## Using the index
 
-You can also access the **index** of every item of an array in the forEach. Checkout our other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
+You can also access the **index** of every item of an array in the forEach. Checkout my other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
 
 The index can be useful in several scenarios, and also allows you to use the early return or [early exit pattern](/posts/javascript-foreach-index/#heading-early-exit) in the forEach.
