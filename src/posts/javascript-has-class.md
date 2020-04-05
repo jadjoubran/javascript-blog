@@ -1,6 +1,6 @@
 ---
 date: 2020-03-01
-title: JavaScript has class
+title: JavaScript hasclass using classList
 tags:
 - guide
 - javascript
@@ -34,7 +34,7 @@ box2.classList.contains("active"); //false
 
 ## Function signature
 
-The function signature of classList.contains is:
+The function signature is:
 
 `classList.contains(className)`
 
@@ -46,40 +46,97 @@ Any DOM element will have a **classList** object which contains a collection of 
 
 Here are some of the most common use cases you can do with classList:
 
-### Add class(es)
+The examples below assume the following HTML:
+
+```html
+<div id="my-element"></div>
+```
+
+which then we select using querySelector:
 
 ```javascript
-element.classList.add("class1", "class2");
+const element = document.querySelector("#my-element");
+```
+
+Make sure to update the selector based on your HTML code.
+
+### Add one or more classes
+
+You can add a class to an element with classList.add:
+
+```javascript
+element.classList.add("some-class");
+```
+
+Also more than 1 class is possible, by passing every class you want to add as an extra argument:
+
+```javascript
+element.classList.add("some-class", "another-class");
+```
+
+After running this line, the element would look like:
+
+```html
+<div id="my-element" class="some-class another-class"></div>
 ```
 
 Check out:
 
-* [How to add class to element in JavaScript](https://codetogo.io/how-to-add-class-to-element-in-javascript/ "How to add class to element in JavaScript")
-* [How to add multiple classes to element in JavaScript](https://codetogo.io/how-to-add-multiple-classes-to-element-in-javascript/ "How to add multiple classes to element in JavaScript")
+* [How to add class to element](https://codetogo.io/how-to-add-class-to-element-in-javascript/ "How to add class to element in JavaScript")
+* [How to add multiple classes to element](https://codetogo.io/how-to-add-multiple-classes-to-element-in-javascript/ "How to add multiple classes to element in JavaScript")
 
-### Remove class(es)
+### Remove one or more classes
 
-```javascript
-element.classList.remove("class1, "class2");
-```
-
-Check out:
-
-* [How to remove class from element in JavaScript](https://codetogo.io/how-to-remove-class-from-element-in-javascript/ "How to remove class from element in JavaScript")
-* [How to remove multiple classes from element in JavaScript](https://codetogo.io/how-to-remove-multiple-classes-from-element-in-javascript/ "How to remove multiple classes from element in JavaScript")
-
-### Toggle class(es)
+You can also remove one more more classes.  
+Let's start by removing the class **active**:
 
 ```javascript
-element.classList.toggle("class1", "class2");
+element.classList.remove("active");
 ```
 
-Check out [How to toggle class of element in JavaScript](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/ "How to toggle class of element")
+Similarly to classList.add, you can also remove multiple classes at the same time by passing the class names as different arguments:
+
+```javascript
+element.classList.remove("first-class", "another-class");
+```
+
+Check out how to [remove a class from an element](https://codetogo.io/how-to-remove-class-from-element-in-javascript/)
+
+### Toggle classes
+
+Toggling classes is especially useful when you have a click event handler and what to add a class the first time, then remove it the next it's clicked (and so on).
+
+```javascript
+element.classList.toggle("some-class", "another-class");
+```
+
+Here's an example of how you can toggle an element to become **active**:
+
+```javascript
+element.addEventListener("click", event => {
+    event.currentTarget.classList.toggle("active");
+});
+```
+
+This will end up adding the class **active** the first time you click on element, and then remove it the next time you click on it.
+
+Check out how to [toggle the class of an element](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/)
 
 ### Replace class
+
+This is a useful "shortcut" as it allows you to replace 2 lines by 1.
+
+You can replace the following 2 lines:
+
+```javascript
+element.classList.remove("old-one");
+element.classList.add("new-one");
+```
+
+By just one clean line:
 
 ```javascript
 element.classList.replace("old-one", "new-one");
 ```
 
-Check out [How to replace a class of element in JavaScript](https://codetogo.io/how-to-replace-a-class-of-element-in-javascript/ "How to replace a class of element in JavaScript")
+Check out how to [replace the class of an element](https://codetogo.io/how-to-replace-a-class-of-element-in-javascript/)
