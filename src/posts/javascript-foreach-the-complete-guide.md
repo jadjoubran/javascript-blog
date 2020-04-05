@@ -97,6 +97,73 @@ There are also other array methods that work similarly, like the **.map** but th
 
 ## Using the index
 
-You can also access the **index** of every item of an array inside the callback passed to forEach. Checkout my other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
+You can also access the **index** of every item of an array inside the callback passed to forEach. 
 
-The index can be useful in several scenarios, and also allows you to use the early return or [early exit pattern](/posts/javascript-foreach-index/#heading-early-exit).
+```javascript
+const apps = ["Calculator", "Messaging", "Clock"];
+
+apps.forEach(function(app, index) {
+    console.log(index, app);
+});
+```
+
+This will log:
+
+> 0 "Calculator" 
+>
+> 1 "Messaging"
+>
+> 2 "Clock"
+
+Checkout my other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index") for more details.
+
+### Early exit pattern
+
+Using the element index it is possible to skip the callback for certain indices, for example:
+
+```javascript
+const apps = ["Calculator", "Messaging", "Clock", "Maps"];
+
+apps.forEach(function(app, index) {
+    if (index < 2) {
+        return false
+    }
+    console.log(app);
+});
+```
+
+The result of that code is:
+
+> "Click"
+>
+> "Maps"
+
+Note that the callback passed to forEach will still run in all cases, however we exit the function as soon as we see that the index is less than 2. This is called an early exit.
+
+## Function signature
+
+Now that we've seen the first 2 arguments: **callback** and **index**, let's take a look at the full function signature:
+
+```javascript
+array.forEach(callback(item, index, array))
+```
+
+As you can see the callback receives the current item, followed by the index and finally it also receives the array that we have called forEach on.
+
+Here's an example:
+
+```javascript
+const people = ["Sam", "Alex"]
+
+people.forEach((person, index, array) => {
+	console.log(array)
+});
+```
+
+Would output:
+
+> \["Sam", "Alex"\]
+>
+> \["Sam", "Alex"\]
+
+So the **array** argument allows you to get the array that we called forEach on, in case you don't have access to it in the current scope.
