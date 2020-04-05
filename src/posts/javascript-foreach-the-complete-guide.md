@@ -5,8 +5,7 @@ tags:
 - javascript
 - guide
 - foreach
-metaDesc: JavaScript forEach. The complete guide on how to use forEach to iterate
-  over arrays in JavaScript.
+metaDesc: The complete guide on how to use forEach to iterate over arrays in JavaScript.
 socialImage: "/images/javascript-foreach.jpg"
 
 ---
@@ -40,11 +39,11 @@ The output (in the console) of both of these snippets of code is the following:
     "Messaging"
     "Clock"
 
-Notice how the callback function passed to the **forEach** is being called **for every single element** of the array**.**
+Notice how the callback function passed to the **forEach** is being called **for every single element** of the array.
 
 ## Best practices
 
-A couple of best practices for using the **JavaScript forEach** method:
+A couple of best practices to keep in mind:
 
 1. Try to have the name of the array in plural (example: **apps**)
 2. Then the first argument inside the forEach should be in singular (example: **app**)
@@ -98,6 +97,6 @@ There are also other array methods that work similarly, like the **.map** but th
 
 ## Using the index
 
-You can also access the **index** of every item of an array in the forEach. Checkout my other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
+You can also access the **index** of every item of an array inside the callback passed to forEach. Checkout my other post on [javascript forEach index](/posts/javascript-foreach-index/ "javascript foreach index").
 
-The index can be useful in several scenarios, and also allows you to use the early return or [early exit pattern](/posts/javascript-foreach-index/#heading-early-exit) in the forEach.
+The index can be useful in several scenarios, and also allows you to use the early return or [early exit pattern](/posts/javascript-foreach-index/#heading-early-exit).
