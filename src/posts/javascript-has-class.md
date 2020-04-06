@@ -13,7 +13,7 @@ If you're looking for **JavaScript has class** or **JavaScript hasclass** then t
 
 ![](/images/javascript-has-class.jpg)
 
-It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a class to `classList.contains("class-name")`
+It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to `classList.contains("class-name")`
 
 Here's an example. Say you've got the following HTML:
 
@@ -25,11 +25,11 @@ Here's an example. Say you've got the following HTML:
 Then you can check if these boxes have the class `active` using the following JavaScript:
 
 ```javascript
-const box1 = document.querySelector("#box1");
-const box2 = document.querySelector("#box2");
+const box1 = document.querySelector('#box1');
+const box2 = document.querySelector('#box2');
 
-box1.classList.contains("active"); //true
-box2.classList.contains("active"); //false
+box1.classList.contains('active'); //true
+box2.classList.contains('active'); //false
 ```
 
 ## Function signature
