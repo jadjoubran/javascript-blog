@@ -11,7 +11,7 @@ socialImage: "/images/javascript-foreach.jpg"
 ---
 The **forEach** method is a method that you can call on Arrays.
 
-![JavaScript forEach - a complete guide](/images/javascript-foreach.jpg "JavaScript forEach")
+![JavaScript forEach - a complete guide](/images/javascript-foreach.jpg)
 
 It helps you iterate (loop) over array items one by one. Here's an example:
 
@@ -67,7 +67,7 @@ items.forEach(item => {
 });
 ```
 
-## Arrays of objects
+## Iterate over array of objects
 
 A common data structure that you will be working with is **arrays of objects**, for example:
 
@@ -95,9 +95,9 @@ Because every **user** (or item) is an object, you can access the keys **id** an
 
 There are also other array methods that work similarly, like the **.map** but that's for another article.
 
-## Using the index
+## Using the index in the forEach
 
-You can also access the **index** of every item of an array inside the callback passed to forEach. 
+You can also access the **index** of every item of an array inside the callback passed to forEach.
 
 ```javascript
 const apps = ["Calculator", "Messaging", "Clock"];
@@ -109,7 +109,7 @@ apps.forEach(function(app, index) {
 
 This will log:
 
-> 0 "Calculator" 
+> 0 "Calculator"
 >
 > 1 "Messaging"
 >
@@ -140,7 +140,7 @@ The result of that code is:
 
 Note that the callback passed to forEach will still run in all cases, however we exit the function as soon as we see that the index is less than 2. This is called an early exit.
 
-## Function signature
+## forEach function signature
 
 Now that we've seen the first 2 arguments: **callback** and **index**, let's take a look at the full function signature:
 
