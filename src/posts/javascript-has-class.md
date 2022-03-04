@@ -1,5 +1,5 @@
 ---
-date: 2020-03-01
+date: 2022-03-03
 title: JavaScript hasclass using classList
 tags:
 - guide
@@ -13,7 +13,9 @@ If you're looking for **JavaScript has class** or **JavaScript hasclass** then t
 
 ![](/images/javascript-has-class.jpg)
 
-It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to `classList.contains("class-name")`
+It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to 
+
+    classList.contains("class-name")
 
 Here's an example. Say you've got the following HTML:
 
@@ -38,7 +40,7 @@ The function signature is:
 
 `classList.contains(className)`
 
-Note that you should only give the **className** rather than a selector with a "**.**" because **classList** is only expecting a class.
+Note that you should only give the **className** rather than a selector with a "**.**" because **classList** is only expecting a class name rather than a selector.
 
 ## What is classList?
 
