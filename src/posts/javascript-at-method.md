@@ -7,7 +7,7 @@ tags:
 - at()
 - array.at()
 metaDesc: Learn how to use string.at() and array.at() in JavaScript.
-socialImage: ''
+socialImage: "/images/javascript-at-method.jpg"
 
 ---
 In 2022, JavaScript gained the `.at()` method for Strings and Arrays.
