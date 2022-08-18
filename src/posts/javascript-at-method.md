@@ -14,6 +14,8 @@ In 2022, JavaScript gained the `.at()` method for Strings and Arrays.
 
 In this article, we'll look at how this method works and how you can use it in your projects.
 
+<img src="/images/javascript-at-method.jpg" alt="" />
+
 ## String.at(index = 0)
 
 The `.at()` method can be used to access a character from a string. It accepts one argument: the index you'd like to access. The `index` parameter defaults to `0`.
