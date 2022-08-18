@@ -14,7 +14,7 @@ In 2022, JavaScript gained the `.at()` method for Strings and Arrays.
 
 In this article, we'll look at how this method works and how you can use it in your projects.
 
-![](/images/javascript-at-method.jpg "JavaScript .at() method")
+![](/images/javascript-at-method-cover.jpg "JavaScript .at() method")
 
 ## String.at(index = 0)
 
