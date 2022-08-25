@@ -40,13 +40,13 @@ The function signature is:
 
 `classList.contains(className)`
 
-Note that you should only give the **className** rather than a selector with a "**.**" because **classList** is only expecting a class name rather than a selector.
+Note that you should only give the `className` rather than a selector with a "**.**" because `classList` is only expecting a class name rather than a selector.
 
 For example, `document.querySelector("#box1").classList.contains(".active")` is incorrect ❌. It's looking for class name of `.active`. Instead, it should be `active` (without the `.`).
 
 ## What is classList?
 
-Any DOM element will have a **classList** object which contains a collection of methods that let you manage the classes, such as adding/removing.
+Any DOM element will have a `classList` object which contains a collection of methods that let you manage the classes, such as adding/removing.
 
 Here are some of the most common use cases you can do with classList:
 
@@ -92,7 +92,7 @@ Check out:
 ### Remove one or more classes
 
 You can also remove one more more classes.  
-Let's start by removing the class **active**:
+Let's start by removing the class **`active`**
 
 ```javascript
 element.classList.remove("active");
@@ -122,7 +122,7 @@ element.addEventListener("click", event => {
 });
 ```
 
-This will end up adding the class **active** the first time you click on element, and then remove it the next time you click on it.
+This will end up adding the class `active` the first time you click on element, and then remove it the next time you click on it.
 
 Check out how to [toggle the class of an element](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/)
 
