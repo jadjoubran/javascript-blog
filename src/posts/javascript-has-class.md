@@ -13,7 +13,7 @@ If you're looking for **JavaScript has class** or **JavaScript hasclass** then t
 
 ![](/images/javascript-has-class.jpg)
 
-It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to 
+It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to
 
     classList.contains("class-name")
 
@@ -30,8 +30,8 @@ Then you can check if these boxes have the class `active` using the following Ja
 const box1 = document.querySelector('#box1');
 const box2 = document.querySelector('#box2');
 
-box1.classList.contains('active'); //true
-box2.classList.contains('active'); //false
+box1.classList.contains('active'); // true
+box2.classList.contains('active'); // false
 ```
 
 ## Function signature
@@ -41,6 +41,8 @@ The function signature is:
 `classList.contains(className)`
 
 Note that you should only give the **className** rather than a selector with a "**.**" because **classList** is only expecting a class name rather than a selector.
+
+For example, `document.querySelector("#box1").classList.contains(".active")` is incorrect ❌. It's looking for class name of `.active`. Instead, it should be `active` (without the `.`).
 
 ## What is classList?
 
