@@ -1,5 +1,5 @@
 ---
-date: 2022-03-03
+date: 2022-08-24
 title: JavaScript hasclass using classList
 tags:
 - guide
