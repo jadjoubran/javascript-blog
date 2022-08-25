@@ -13,7 +13,7 @@ If you're looking for **JavaScript has class** or **JavaScript hasclass** then t
 
 ![](/images/javascript-has-class.jpg)
 
-It's great news that you don't need a library anymore to check if an element has a class or not, because you can now simply do it with a call to
+It's great news that you don't need a library anymore to check if an element has a class or not because you can now simply do it with a call to
 
     classList.contains("class-name")
 
@@ -42,7 +42,7 @@ The function signature is:
 
 Note that you should only give the `className` rather than a selector with a "**.**" because `classList` is only expecting a class name rather than a selector.
 
-For example, `document.querySelector("#box1").classList.contains(".active")` is incorrect ❌. It's looking for class name of `.active`. Instead, it should be `active` (without the `.`).
+For example, `document.querySelector("#box1").classList.contains(".active")` is incorrect ❌. It's looking for a class name of `.active`. Instead, it should be `active` (without the `.`).
 
 ## What is classList?
 
@@ -72,13 +72,13 @@ You can add a class to an element with classList.add:
 element.classList.add("some-class");
 ```
 
-Also more than 1 class is possible, by passing every class you want to add as an extra argument:
+Also, adding more than 1 class is possible. You can pass every class you want to add as an extra argument:
 
 ```javascript
 element.classList.add("some-class", "another-class");
 ```
 
-After running this line, the element would look like:
+After running this line, the element would look like this:
 
 ```html
 <div id="my-element" class="some-class another-class"></div>
@@ -91,7 +91,7 @@ Check out:
 
 ### Remove one or more classes
 
-You can also remove one more more classes.  
+You can also remove one more classes.  
 Let's start by removing the class **`active`**
 
 ```javascript
@@ -122,13 +122,13 @@ element.addEventListener("click", event => {
 });
 ```
 
-This will end up adding the class `active` the first time you click on element, and then remove it the next time you click on it.
+This will end up adding the class `active` the first time you click on element and then remove it the next time you click on it.
 
 Check out how to [toggle the class of an element](https://codetogo.io/how-to-toggle-class-of-element-in-javascript/)
 
 ### Replace class
 
-This is a useful "shortcut" as it allows you to replace 2 lines by 1.
+This is a useful "shortcut" as it allows you to replace 2 lines with 1.
 
 You can replace the following 2 lines:
 
