@@ -1,14 +1,16 @@
 ---
-date: 2020-03-14
+date: 2020-03-14T00:00:00.000Z
 title: JavaScript in array
 tags:
-- javascript
-- arrays
-metaDesc: As of ES6 (ES2015), there's a new and easy way to check of an item exists
-  in an array, also known as in array.
-socialImage: "/images/javascript-in-array.jpg"
-
+  - javascript
+  - arrays
+metaDesc: >-
+  As of ES6 (ES2015), there's a new and easy way to check of an item exists in
+  an array, also known as in array.
+socialImage: /images/javascript-in-array.jpg
+_template: post
 ---
+
 As of ES6 (ES2015), there's a new and easy way to check of an item exists in an array, also known as **in array**.
 
 This is now possible by using the **Array.includes()** method which returns a boolean.

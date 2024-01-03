@@ -1,14 +1,15 @@
 ---
-date: 2020-02-21
+date: 2020-02-21T00:00:00.000Z
 title: JavaScript forEach - the complete guide
 tags:
-- javascript
-- guide
-- foreach
+  - javascript
+  - guide
+  - foreach
 metaDesc: The complete guide on how to use forEach to iterate over arrays in JavaScript.
-socialImage: "/images/javascript-foreach.jpg"
-
+socialImage: /images/javascript-foreach.jpg
+_template: post
 ---
+
 The **forEach** method is a method that you can call on Arrays.
 
 ![JavaScript forEach - a complete guide](/images/javascript-foreach.jpg)

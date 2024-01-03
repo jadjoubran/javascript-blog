@@ -1,15 +1,16 @@
 ---
-date: 2022-08-15
+date: 2022-08-15T00:00:00.000Z
 title: JavaScript .at() method – the complete guide.
 tags:
-- javascript at()
-- string.at()
-- at()
-- array.at()
+  - javascript at()
+  - string.at()
+  - at()
+  - array.at()
 metaDesc: Learn how to use string.at() and array.at() in JavaScript.
-socialImage: "/images/javascript-at-method.jpg"
-
+socialImage: /images/javascript-at-method.jpg
+_template: post
 ---
+
 In 2022, JavaScript gained the `.at()` method for Strings and Arrays.
 
 In this article, we'll look at how this method works and how you can use it in your projects.

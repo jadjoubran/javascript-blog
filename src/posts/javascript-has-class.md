@@ -1,14 +1,16 @@
 ---
-date: 2022-08-24
+date: 2022-08-24T00:00:00.000Z
 title: JavaScript hasclass using classList
 tags:
-- guide
-- javascript
-metaDesc: 'JavaScript has class: using classList to check if an element has a class
-  or not in JavaScript'
-socialImage: "/images/javascript-has-class.jpg"
-
+  - guide
+  - javascript
+metaDesc: >-
+  JavaScript has class: using classList to check if an element has a class or
+  not in JavaScript
+socialImage: /images/javascript-has-class.jpg
+_template: post
 ---
+
 If you're looking for **JavaScript has class** or **JavaScript hasclass** then there's a high probability that you used to work with **jQuery** in the past.
 
 ![](/images/javascript-has-class.jpg)

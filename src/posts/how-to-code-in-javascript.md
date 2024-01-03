@@ -1,14 +1,16 @@
 ---
-date: 2020-02-20
+date: 2020-02-20T00:00:00.000Z
 title: How to code in JavaScript
 tags:
-- introduction
-- beginner
-metaDesc: How to code in JavaScript - A tutorial that covers the basics of JavaScript
-  so you can get started. Ideal for developers with some programming experience.
-socialImage: "/images/how-to-code-in-javascript.jpg"
-
+  - introduction
+  - beginner
+metaDesc: >-
+  How to code in JavaScript - A tutorial that covers the basics of JavaScript so
+  you can get started. Ideal for developers with some programming experience.
+socialImage: /images/how-to-code-in-javascript.jpg
+_template: post
 ---
+
 **JavaScript** is a programming language used to make
 websites dynamic & interactive.
 

@@ -1,14 +1,16 @@
 ---
-date: 2020-03-04
+date: 2020-03-04T00:00:00.000Z
 title: JavaScript forEach index
 tags:
-- foreach
-- javascript
-metaDesc: Using forEach in JavaScript you can access the "index". Checkout the examples
+  - foreach
+  - javascript
+metaDesc: >-
+  Using forEach in JavaScript you can access the "index". Checkout the examples
   for using the JavaScript forEach index.
-socialImage: "/images/javascript-foreach-index.jpg"
-
+socialImage: /images/javascript-foreach-index.jpg
+_template: post
 ---
+
 When looping through an array in JavaScript, it may be useful sometimes to get the **index** of every item in the array.
 
 ![javascript forEach index](/images/javascript-foreach-index.jpg)

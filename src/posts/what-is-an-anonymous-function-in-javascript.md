@@ -1,14 +1,16 @@
 ---
-date: 2020-03-25
+date: 2020-03-25T00:00:00.000Z
 title: What is an anonymous function in JavaScript?
 tags:
-- beginner
-- javascript
-metaDesc: 'An anonymous function is a function defined without a name. It is different
-  from named functions which are functions that have a name. '
-socialImage: "/images/javascript-anonymous-function.jpg"
-
+  - beginner
+  - javascript
+metaDesc: >-
+  An anonymous function is a function defined without a name. It is different
+  from named functions which are functions that have a name. 
+socialImage: /images/javascript-anonymous-function.jpg
+_template: post
 ---
+
 An anonymous function is a function defined without a name.
 
 This could be either a normal function or an arrow function, let's take an example:  
