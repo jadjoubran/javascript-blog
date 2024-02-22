@@ -11,6 +11,15 @@
 // Local dependencies
 @import 'typography';
 
+#js-disclaimer {
+  margin: 0;
+  text-align: center;
+  border-top: 1px solid #dedede;
+  margin-top: 10px;
+  padding-top: 10px;
+ opacity: 0.7; 
+}
+
 /**
  * GLOBAL STYLES
  */

@@ -1,13 +1,18 @@
 {
   "items": [
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/JoubranJad",
+      "text": "Learn JavaScript",
+      "url": "https://learnjavascript.online/?utm_source=blog",
       "external": true
     },
     {
-      "text": "Learn JavaScript",
-      "url": "https://learnjavascript.online/?utm_source=blog",
+      "text": "Fetch API",
+      "url": "https://learnjavascript.online/topics/fetch.html?utm_source=blog",
+      "external": true
+    },
+    {
+      "text": "JavaScript Projects",
+      "url": "https://learnjavascript.online/projects.html?utm_source=blog",
       "external": true
     }
   ]
