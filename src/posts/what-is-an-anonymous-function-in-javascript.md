@@ -6,16 +6,16 @@ tags:
   - javascript
 metaDesc: >-
   An anonymous function is a function defined without a name. It is different
-  from named functions which are functions that have a name. 
+  from named functions which are functions that have a name.
 socialImage: /images/javascript-anonymous-function.jpg
 _template: post
 ---
 
 An anonymous function is a function defined without a name.
 
-This could be either a normal function or an arrow function, let's take an example:  
+This could be either a normal function or an arrow function, let's take an example:
 
-![](/images/javascript-anonymous-function.jpg)
+<img src="/images/javascript-anonymous-function.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
 
 ```javascript
 function() {
@@ -27,16 +27,16 @@ function() {
 }
 ```
 
-It is different from named functions which are functions that have a **name**. For example:  
+It is different from named functions which are functions that have a **name**. For example:
 
 ```javascript
 function doSomething() {
-    // named function
+  // named function
 }
 
 const doSomething = () => {
-    // named arrow function
-}
+  // named arrow function
+};
 ```
 
 Notice how the arrow function takes the name as a variable declaration.
@@ -45,9 +45,9 @@ Now you might be wondering, why do we have this concept of anonymous functions i
 
 ## Why it exists
 
-JavaScript relies heavily on callbacks.  
+JavaScript relies heavily on callbacks.
 
-A callback is a function that will be called (sometimes it could be called in the future).  
+A callback is a function that will be called (sometimes it could be called in the future).
 
 Those functions often do **not** require a name, which is when we tend to use anonymous functions.
 
@@ -59,14 +59,14 @@ The most common use case is array operations such as [.forEach](https://blog.lea
 
 ```javascript
 const numbers = [1, 2, 3];
-numbers.forEach(function (number) {
-    // anonymous function
-    console.log(number);
+numbers.forEach(function(number) {
+  // anonymous function
+  console.log(number);
 });
 
 numbers.forEach(number => {
-    // anonymous arrow function
-    console.log(number);
+  // anonymous arrow function
+  console.log(number);
 });
 ```
 
@@ -77,28 +77,28 @@ Notice how the function does not take a name, because we will not need to call t
 Another common example is event listeners.
 
 ```javascript
-const button = document.querySelector("button");
+const button = document.querySelector('button');
 
-button.addEventListener("click", () => {
-    // anonymous (arrow) function
-    console.log("Button clicked");
+button.addEventListener('click', () => {
+  // anonymous (arrow) function
+  console.log('Button clicked');
 });
 ```
 
-However the moment you need to call **removeEventListener** then you would need to give that function a name. For example:  
+However the moment you need to call **removeEventListener** then you would need to give that function a name. For example:
 
 ```javascript
-const button = document.querySelector("button");
+const button = document.querySelector('button');
 
 const handleClick = () => {
-    // named (arrow) function
-    console.log("Button clicked");
+  // named (arrow) function
+  console.log('Button clicked');
 };
 
-button.addEventListener("click", handleClick);
+button.addEventListener('click', handleClick);
 
 // remove event listener after 1 second
 setTimeout(() => {
-   button.removeEventListener("click", handleClick);
+  button.removeEventListener('click', handleClick);
 }, 1000);
 ```

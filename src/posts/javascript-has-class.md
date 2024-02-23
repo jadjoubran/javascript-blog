@@ -13,7 +13,7 @@ _template: post
 
 If you're looking for JavaScript `has class` or JavaScript `hasclass` then there's a high probability that you used to work with **jQuery** in the past.
 
-![](/images/javascript-has-class.jpg)
+<img src="/images/javascript-has-class.jpg" alt="" width="1747" height="1240" style="width: 100%; height: auto">
 
 It's great news that you don't need a library anymore to check if an element has a class or not because you can now simply do it with a call to
 

@@ -15,7 +15,7 @@ In 2022, JavaScript gained the `.at()` method for Strings and Arrays.
 
 In this article, we'll look at how this method works and how you can use it in your projects.
 
-![](/images/javascript-at-method-cover.jpg "JavaScript .at() method")
+<img src="/images/javascript-at-method-cover.jpg" alt="" with="1200" height="675" style="width: 100%; height: auto">
 
 ## String.at(index = 0)
 
@@ -26,7 +26,7 @@ The `.at()` method can be used to access a character from a string. It accepts o
 Here are some examples:
 
 ```javascript
-const title = "JavaScript";
+const title = 'JavaScript';
 
 title.at(); // index defaults to 0 -> "J"
 title.at(0); // reads first character -> "J"
@@ -38,7 +38,7 @@ title.at(1); // reads second character -> "a"
 If you try accessing an index beyond the string's length, you will get undefined:
 
 ```javascript
-const action = "Go";
+const action = 'Go';
 
 title.at(0); // "G"
 title.at(1); // "o"
@@ -55,7 +55,7 @@ The major difference between the `.at()` method and the square bracket syntax ca
 For example, to access the last character of a string using square brackets, we had to calculate the index of the last character, which is the length of the string - 1:
 
 ```javascript
-const name = "Jad"; // 3 characters -> last index is 3 - 1 = 2
+const name = 'Jad'; // 3 characters -> last index is 3 - 1 = 2
 
 name[name.length]; // undefined
 name[name.length - 1]; // "d" (last character)
@@ -68,7 +68,7 @@ This is the primary reason that initiated the `.at()` proposal. Since it's a new
 Thus, you can specify `-1` to _walk back_ from the end of the string and read the last character:
 
 ```javascript
-const name = "Kate";
+const name = 'Kate';
 
 name.at(-1); // "e" (last character)
 name.at(-2); // "t"; (second to last character)
@@ -79,7 +79,7 @@ name.at(-2); // "t"; (second to last character)
 There's another interesting use case of the `.at()` method. If you provide an index with a decimal, the index will be converted to an integer. This means you're able to pass values such as `1.5` and `2.51` to the `.at()` system. This would **not** work when using the square bracket syntax.
 
 ```javascript
-const name = "Jad";
+const name = 'Jad';
 
 name.at(1); // "a"
 name.at(1.1); // "a"
@@ -96,7 +96,7 @@ The benefit of accepting decimal numbers is the ability to use the result of met
 For example, if you have a string made up of two characters, you can pass `Math.random() * 2` as an index. This will let you randomly pick a character:
 
 ```javascript
-const action = "Go";
+const action = 'Go';
 
 action.at(Math.random() * 2); // Either "G" or "o" (randomly chosen)
 action.at(Math.random() * 2); // Either "G" or "o" (randomly chosen)
@@ -105,7 +105,7 @@ action.at(Math.random() * 2); // Either "G" or "o" (randomly chosen)
 This works because `Math.random()` returns a random number that satisfies the following condition:
 
 ```javascript
-0 <= Math.random() < 1
+0 <= Math.random() < 1;
 ```
 
 In other words, the random number is between 0 and 1. It could be 0, but it's **never** 1. This means the first digit of `Math.random()` will always be 0. The digits after the decimal point will be random!
@@ -115,7 +115,7 @@ So, if we have two items, we can multiply `Math.random()` by 2 to get a number b
 Here's another example that returns a random character for any string length:
 
 ```javascript
-const name = "Jad";
+const name = 'Jad';
 
 name.at(Math.random() * name.length); // Pick a random character ('J', 'a', or 'd')
 ```
@@ -127,7 +127,7 @@ The `.at()` method is also available on arrays! Its usage is precisely the same 
 So, we'll focus on providing some examples.
 
 ```javascript
-const people = ["Sam", "Charley", "Alex"];
+const people = ['Sam', 'Charley', 'Alex'];
 
 people.at(); // index defaults to 0 -> "Sam"
 people.at(0); // first item of the array -> "Sam"
@@ -140,7 +140,7 @@ people.at(-2); // second to last item of the array -> "Charley"
 You can also choose a random item using the `Math.random() * people.length` index:
 
 ```javascript
-const people = ["Sam", "Charley", "Alex"];
+const people = ['Sam', 'Charley', 'Alex'];
 
 people.at(Math.random() * people.length); // Pick a random item
 ```
@@ -150,7 +150,7 @@ people.at(Math.random() * people.length); // Pick a random item
 The `.at()` method also works with arrays of objects. The item you'll get back will be an object! Here's an example:
 
 ```javascript
-const users = [{id: 1, name: "Sam"}, {id: 2, name: "Alex"}];
+const users = [{id: 1, name: 'Sam'}, {id: 2, name: 'Alex'}];
 
 users.at(0); // {id: 1, name: "Sam"}
 users.at(-1); // {id: 2, name: "Alex"}

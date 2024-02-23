@@ -14,15 +14,15 @@ _template: post
 **JavaScript** is a programming language used to make
 websites dynamic & interactive.
 
-![](/images/how-to-code-in-javascript.jpg)
+<img src="/images/how-to-code-in-javascript.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
 
 For example, it allows you to:
 
-* Show a message when the user clicks on a button
-* Hide a message when the user clicks on the close button
-* Open a sidebar when the user swipes to the right from the edge of
+- Show a message when the user clicks on a button
+- Hide a message when the user clicks on the close button
+- Open a sidebar when the user swipes to the right from the edge of
   the screen
-* Play a video when you click on the **play** button
+- Play a video when you click on the **play** button
 
 **JavaScript** can also be used on the server side to
 write the backend or API of your website. In that context it's called
@@ -38,7 +38,7 @@ example:
 
 ```javascript
 function sum(a, b) {
-	return a + b;
+  return a + b;
 }
 ```
 
@@ -62,8 +62,8 @@ character.
 Here's an example:
 
 ```javascript
-"This is a string";
-'this is another string!'
+'This is a string';
+'this is another string!';
 ```
 
 There is no difference between using a double quote or a single quote.
@@ -77,7 +77,7 @@ the string. Here's an example of getting the length of
 **"Nice!"**:
 
 ```javascript
-"Nice!".length;
+'Nice!'.length;
 // returns 5
 ```
 
@@ -91,8 +91,8 @@ This method returns true when the searchString is included inside the
 parent string. For example:
 
 ```javascript
-"Hello World".includes("Hello"); // true
-"Hello World".includes("Potato"); // false
+'Hello World'.includes('Hello'); // true
+'Hello World'.includes('Potato'); // false
 ```
 
 #### .toUpperCase()
@@ -101,7 +101,7 @@ This will return a new string that has all of its characters in upper
 case:
 
 ```javascript
-"hello".toUpperCase(); // "HELLO";
+'hello'.toUpperCase(); // "HELLO";
 ```
 
 #### .toLowerCase()
@@ -110,7 +110,7 @@ This will return a new string that has all of its characters in lower
 case:
 
 ```javascript
-"NICe".toLowerCase(); // "nice";
+'NICe'.toLowerCase(); // "nice";
 ```
 
 ## Numbers
@@ -137,7 +137,7 @@ For that, you'd have to use the
 **Number.parseInt** method. Here's an example:
 
 ```javascript
-Number.parseInt("42", 10); //42
+Number.parseInt('42', 10); //42
 ```
 
 Note that the **Number** in

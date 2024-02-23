@@ -13,15 +13,15 @@ _template: post
 
 When looping through an array in JavaScript, it may be useful sometimes to get the **index** of every item in the array.
 
-![javascript forEach index](/images/javascript-foreach-index.jpg)
+<img src="/images/javascript-foreach-index.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
 
 This is possible with **.forEach** method, let's take an example to illustrate it:
 
 ```javascript
-const apps = ["Calculator", "Messaging", "Clock"];
+const apps = ['Calculator', 'Messaging', 'Clock'];
 
 apps.forEach((app, index) => {
-    console.log(app, index);
+  console.log(app, index);
 });
 ```
 
@@ -35,7 +35,7 @@ The output of this code is:
 
 Notice how the **index** starts at 0 and goes all the way until the array's length - 1 (`apps.length - 1` which is 2 here).
 
-Not sure how the forEach method works? Checkout [JavaScript forEach](https://blog.learnjavascript.online/posts/javascript-foreach-the-complete-guide/ "javascript foreach") for a full guide.
+Not sure how the forEach method works? Checkout [JavaScript forEach](https://blog.learnjavascript.online/posts/javascript-foreach-the-complete-guide/ 'javascript foreach') for a full guide.
 
 ## Real life scenario
 
@@ -44,11 +44,11 @@ Why would the `index` be useful? Here's a real life scenario:
 Let's say you have a list of options and would like to tag them with **Option 1**, **Option 2**, etc.
 
 ```javascript
-const options = ["Milk", "Cheese", "Water"];
+const options = ['Milk', 'Cheese', 'Water'];
 
-let html = "<div>";
+let html = '<div>';
 options.forEach((option, index) => {
-     html += `<p>Select option ${index + 1}: ${option}</p>`;
+  html += `<p>Select option ${index + 1}: ${option}</p>`;
 });
 html += `</div>`;
 console.log(html);
@@ -58,9 +58,9 @@ The result of the above code is:
 
 ```html
 <div>
-    <p>Select option 1: Milk</p>
-    <p>Select option 2: Cheese</p>
-    <p>Select option 3: Water</p>
+  <p>Select option 1: Milk</p>
+  <p>Select option 2: Cheese</p>
+  <p>Select option 3: Water</p>
 </div>
 ```
 
@@ -73,13 +73,13 @@ Another use case of using the `index` is when you want to stop the forEach once 
 Note that you can't really **stop** the forEach but you can make it skip the body of the function. Here's an example:
 
 ```javascript
-const chars = ["A", "B", "C", "D", "E", "F"];
+const chars = ['A', 'B', 'C', 'D', 'E', 'F'];
 
 chars.forEach((char, index) => {
-    if (index >= 3){
-        return;
-    }
-	console.log(char);
+  if (index >= 3) {
+    return;
+  }
+  console.log(char);
 });
 ```
 
