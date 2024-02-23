@@ -14,7 +14,7 @@ _template: post
 **JavaScript** is a programming language used to make
 websites dynamic & interactive.
 
-<img src="/images/how-to-code-in-javascript.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
+<img class="fcp" src="/images/how-to-code-in-javascript.jpg" alt="" with="1747" height="1240">
 
 For example, it allows you to:
 

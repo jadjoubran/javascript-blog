@@ -12,7 +12,7 @@ _template: post
 
 The `forEach` method is a method that you can call on Arrays.
 
-<img src="/images/javascript-foreach.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
+<img class="fcp" src="/images/javascript-foreach.jpg" alt="" with="1747" height="1240">
 
 It helps you iterate (loop) over array items one by one. Here's an example:
 

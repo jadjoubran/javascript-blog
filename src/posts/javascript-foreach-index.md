@@ -13,7 +13,7 @@ _template: post
 
 When looping through an array in JavaScript, it may be useful sometimes to get the **index** of every item in the array.
 
-<img src="/images/javascript-foreach-index.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
+<img class="fcp" src="/images/javascript-foreach-index.jpg" alt="" with="1747" height="1240">
 
 This is possible with **.forEach** method, let's take an example to illustrate it:
 

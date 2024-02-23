@@ -18,7 +18,9 @@ module.exports = function(value, outputPath) {
 
     if (articleImages.length) {
       articleImages.forEach(image => {
-        image.setAttribute('loading', 'lazy');
+        if (!image.classList.contains('fcp')) {
+          image.setAttribute('loading', 'lazy');
+        }
 
         // If an image has a title it means that the user added a caption
         // so replace the image with a figure containing that image and a caption

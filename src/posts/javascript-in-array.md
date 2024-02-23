@@ -15,7 +15,7 @@ As of ES6 (ES2015), there's a new and easy way to check of an item exists in an 
 
 This is now possible by using the **Array.includes()** method which returns a boolean.
 
-<img src="/images/javascript-in-array.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
+<img class="fcp" src="/images/javascript-in-array.jpg" alt="" with="1747" height="1240">
 
 Here's a basic example:
 

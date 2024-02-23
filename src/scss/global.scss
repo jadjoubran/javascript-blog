@@ -20,6 +20,12 @@
  opacity: 0.7; 
 }
 
+/* this class also disables loading=lazy on the image*/
+.fcp {
+  width: 100%;
+  height: auto
+}
+
 /**
  * GLOBAL STYLES
  */

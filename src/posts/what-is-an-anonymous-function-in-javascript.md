@@ -15,7 +15,7 @@ An anonymous function is a function defined without a name.
 
 This could be either a normal function or an arrow function, let's take an example:
 
-<img src="/images/javascript-anonymous-function.jpg" alt="" with="1747" height="1240" style="width: 100%; height: auto">
+<img class="fcp" src="/images/javascript-anonymous-function.jpg" alt="" with="1747" height="1240">
 
 ```javascript
 function() {
