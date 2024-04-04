@@ -1,5 +1,5 @@
 ---
-date: 2024-03-05T00:00:00.000Z
+date: 2024-04-04T00:00:00.000Z
 title: How long does it take to Learn JavaScript?
 tags:
   - Beginners
@@ -66,6 +66,14 @@ So, while you may be somewhat comfortable writing code that runs on the server, 
 In general, a bit of [HTML and CSS](https://learnhtmlcss.online/?utm_source=blog) will be necessary once you start learning about the DOM.
 
 JavaScript can also run on the server. This is made possible by Node.js. However, if you're learning JavaScript for the first time, we recommend focusing on the browser first. Once you're comfortable with JavaScript in the browser, you can learn about Node.js.
+
+## How should you learn JavaScript?
+
+While you may hear recommendations such as "write code every day", it's important to take your time and take <strong>breaks</strong>. Learning is a bit like going to the gym. You solidify your knowledge when you sleep, just like you build muscle when you rest.
+
+We also recommend you use flashcards designed with spaced repetition. This helps you solidify your knowledge over time.
+
+If you decide to use [Learn JavaScript](https://learnjavascript.online/?utm_source=blog), you can make use of the built-in flashcards. They're designed with spaced repetition in mind.
 
 ## Conclusion
 
