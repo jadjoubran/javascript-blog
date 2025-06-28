@@ -1,5 +1,5 @@
 ---
-date: 2024-04-04T00:00:00.000Z
+date: 2025-06-28T00:00:00.000Z
 title: How long does it take to Learn JavaScript?
 tags:
   - Beginners
@@ -50,6 +50,8 @@ Many students ask me: _when am I ready to learn JavaScript?_ And my answer is:
 Learning JavaScript will be much easier if you've already learned a programming language. You can expect to learn JavaScript at the beginner level in 3 to 6 months. Again, this is a rough estimate and can vary based on the time you can dedicate to learning, your learning style, and the resources you use.
 
 If you're already comfortable with a programming language such as Ruby or Python, you will notice that the fundamentals of programming are the same across languages. However, the syntax will be a struggle at first.
+
+In the age of AI, syntax has become less of a problem, as you can use AI tools to help you understand the syntax.
 
 On the other hand, if you've learned a language such as C, Java, or PHP, you will be more at ease with the _syntax_. **Note**: C, Java, and PHP are **not** similar to JavaScript; it's just the syntax that's similar (with regards to parentheses, curly braces, and semicolons).
 

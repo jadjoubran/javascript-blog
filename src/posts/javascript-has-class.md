@@ -1,5 +1,5 @@
 ---
-date: 2024-02-22T00:00:00.000Z
+date: 2025-06-28T00:00:00.000Z
 title: JavaScript hasclass using classList
 tags:
   - guide
@@ -146,3 +146,8 @@ element.classList.replace('old-one', 'new-one');
 ```
 
 Check out how to [replace the class of an element](https://codetogo.io/how-to-replace-a-class-of-element-in-javascript/)
+
+## Conclusion
+
+In this post, we learned how to check if an element has a class using `classList.contains`. We also explored the `classList` object and its methods for adding, removing, toggling, and replacing classes.
+Happy coding! 🚀
